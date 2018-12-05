@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haiku Japanese Bistro</title>
+    <link rel=icon href="Favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="white_bar"></div> <!--anchored white bar under nav text-->
+        <nav>
+            <a href="#home"><p id="nav_section_01">HOME</p></a>
+            <a href="#location"><p id="nav_section_02">LOCATION</p></a>
+            <a href="#menu"><p id="nav_section_03">MENU</p></a>
+            <a href="#order_online"><p id="nav_section_04">ORDER ONLINE</p></a>
+            <a href="#about"><p id="nav_section_05">ABOUT US</p></a>
+            <img id="logo" src="HAIKU.png">
+
+        </nav>
+    </div><!--end of header-->
+    <div id="home">
+        <div class="specials">
+            <h2 class="special">TWICE DAILY HAPPY HOURS</h2>
+            <p class="special">3 PM - 5 PM + 9 PM - Close</p>
+            <p></p><h4 class="special">Food + Drink Specials</h4>
+
+        </div><!--end of specials-->
+
+        <div class="lunch">
+            <h2 class="special">LUNCH SPECIALS</h2>
+            <p class="special">Available everyday from 11 AM - 3 PM</p>
+            <p></p><h4 class="special">20+ Meal Options Under $14</h4>
+
+        </div><!--end of lunch-->
+
+    </div> <!--end of home-->
+    <div id="location">
+        <div class="location_help"></div>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1-m0BGJSMi9az1FiWgka5FhNB02jOW59T&hl=en" width="1150"
+                height="420"></iframe> <!--code imported from google-->
+
+    </div><!--end of location-->
+    <div id="menu">
+        <button class="collapsible">Soup + Salad</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Garden Salad</h3>
+                        <p>Fresh mixed green vegetable with ginger dressing</p></td>
+                    <td><h3>$3.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Avocado Salad</h3>
+                        <p>With ginger dressing</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Seaweed Salad</h3></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Squid Salad</h3></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Kani Salad</h3>
+                        <p>Crab stick, cucumber crunch with spicy mayo and masago.</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Chicken Salad</h3>
+                        <p>
+                            Grilled chicken with green salad and house dressing.</p></td>
+                    <td><h3>$8.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Summer Salad</h3>
+                        <p>Chopped shrimp, kani, mango, mixed green with chef's special sauce.</p></td>
+                    <td><h3>$8.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Steak Salad</h3>
+                        <p>Grilled steak with green salad and house dressing</p></td>
+                    <td><h3>$9.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Shrimp Salad</h3>
+                        <p>Grilled shrimp with green salad and house dressing</p></td>
+                    <td><h3>$9.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Sashimi Salad</h3>
+                        <p>Chopped raw fish, shrimp, kani, mixed green vegetables with yuzu sauce, mango dressing.</p>
+                    </td>
+                    <td><h3>$9.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Haiku Special Salad</h3>
+                        <p>Chopped tuna, salmon or white tuna, mango, avocado, bean kapa and mixed green, masago with
+                            yuzu sauce, over sushi rice.</p></td>
+                    <td><h3>$11.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Miso Soup</h3></td>
+                    <td><h3>$2.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Clear Soup</h3></td>
+                    <td><h3>$2.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Seafood Soup</h3>
+                        <p>Seafood and mushroom in special soup</p></td>
+                    <td><h3>$7.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Haiku Special Soup</h3>
+                        <p>Miso soup with seafood and vegetables</p></td>
+                    <td><h3>$8.00</h3></td>
+                </tr>
+
+            </table>
+        </div><!--end of soup+salad-->
+        <button class="collapsible">Appetizers from Sushi Bar</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Yellowtail Jalapeno</h3>
+                        <p>Sliced yellowtail, jalapeno, scallion, tobiko, yuzu vinegar sauce.</p></td>
+                    <td><h3>$10.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Pepper Tuna</h3>
+                        <p>Sliced pepper tuna or pepper white tuna with onion, scallion, tobiko, chili sauce, ponzu
+                            sauce.</p></td>
+                    <td><h3>$10.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Spicy Scallop Tartare</h3>
+                        <p>Chopped scallop, mango, crunch, masago, scallion, with chef's special jalapeno sauce.</p>
+                    </td>
+                    <td><h3>$10.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Sunomono</h3>
+                        <p>Assorted raw fish, cucumber, bean sprouts, with vinegar sauce.</p></td>
+                    <td><h3>$9.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Spicy Tuna Tartare</h3>
+                        <p>Chopped tuna, spicy mayo, mixed green, scallion, tobiko, with ponzu sauce.</p></td>
+                    <td><h3>$9.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Spicy Salmon Tartare</h3>
+                        <p>
+                            Salmon, spicy mayo, mixed green, scallion, tobiko, with ponzu sauce.</p></td>
+                    <td><h3>$9.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Spicy Yellowtail Tartare</h3>
+                        <p>Yellowtail, spicy mayo, mixed green, scallion, tobiko, with ponzu sauce.</p></td>
+                    <td><h3>$9.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Spicy Tuna Pizza</h3>
+                        <p>Spicy tuna on guacamole, served with spicy creamy mayo, wasabi mayo, scallion, tobiko.</p>
+                    </td>
+                    <td><h3>$11.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Naruto</h3>
+                        <p>Cucumber wrapped tuna, salmon yellowtail, avocado, kani, with yuzu sauce and tobiko.</p></td>
+                    <td><h3>$11.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Sesame Tuna Tataki</h3>
+                        <p>Seared sesame tuna sliced thinly, served with jalapeno ponzu sauce, scallion, tobiko.</p>
+                    </td>
+                    <td><h3>$12.00</h3></td>
+                </tr>
+
+            </table>
+        </div><!--end of sushi bar apps-->
+        <button class="collapsible">Appetizers from Kitchen</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Edamame</h3>
+                        <p>Japanese soybean</p></td>
+                    <td><h3>$4.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Gyoza</h3>
+                        <p>Pan fried Japanese pork dumpling</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Vegetable Gyoza</h3>
+                        <p>Yasai gyoza</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Vegetable Tempura Combo (Appetizer)</h3>
+                        <p>7 pieces of vegetable tempura</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Yakitori</h3>
+                        <p>Skewered grilled chicken</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Shumai</h3>
+                        <p>Steamed shrimp dumpling</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Haru Maki</h3>
+                        <p>Vegetable spring roll</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Age Tofu</h3>
+                        <p>Deep fried tofu with tempura sauce</p></td>
+                    <td><h3>$6.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Sweet Potato Tempura (Appetizer)</h3></td>
+                    <td><h3>$6.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Fried Scallops</h3></td>
+                    <td><h3>$6.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Chicken Nuggets</h3></td>
+                    <td><h3>$6.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Tako Yaki</h3></td>
+                    <td><h3>$6.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Calimari</h3></td>
+                    <td><h3>$7.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Shrimp Tempura Combo (Appetizer)</h3>
+                        <p>2 Pieces of shrimp, 5 pieces of vegetables</p></td>
+                    <td><h3>$7.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Soft Shell Crab</h3>
+                        <p>Japanese style deep fried soft shell crab with ponzu sauce</p></td>
+                    <td><h3>$9.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Coconut Shrimp</h3>
+                        <p>Grilled shrimp rolled with asparagus, chef's special coconut sauce</p></td>
+                    <td><h3>$9.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Squid Ginger Yaki</h3>
+                        <p>Grilled whole squid with ginger sauce</p></td>
+                    <td><h3>$9.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Rock Shrimp Tempura</h3>
+                        <p>Butter-fried shrimp served with spicy mayo, yuzu sauce</p></td>
+                    <td><h3>$9.00</h3></td>
+                </tr>
+
+
+            </table>
+        </div><!--end of kitchen apps-->
+        <button class="collapsible">Sushi + Sashimi A La Carte</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Tuna</h3>
+                        <p>Manguro</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Squid</h3>
+                    <p>Ika</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Salmon Belly</h3>
+                        <p>Salmon Belly</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Smoked Salmon</h3></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Eel</h3>
+                        <p>Unagi</p></td>
+                    <td><h3>$6.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Mackerel</h3>
+                        <p>Saba</p></td>
+                    <td><h3>$4.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Shrimp</h3>
+                        <p>Ebi</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Caviar</h3>
+                        <p>Tobiko</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Crab Stick</h3>
+                        <p>Kani</p></td>
+                    <td><h3>$4.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Yellowtail</h3>
+                        <p>Hamachi</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Octopus</h3>
+                        <p>Tako</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>White Tuna</h3>
+                        <p>Shiromaguro</p></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>King Crab</h3>
+                        <p>King crab</p></td>
+                    <td><h3>$7.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Red Snapper</h3></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Egg Custard</h3>
+                        <p>Tomago</p></td>
+                    <td><h3>$4.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Scallop</h3>
+                        <p>Hotate</p></td>
+                    <td><h3>$7.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Sweet Shrimp</h3>
+                        <p>Amaebi</p></td>
+                    <td><h3>$10.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Salmon Roe</h3>
+                        <p>Ikura</p></td>
+                    <td><h3>$6.00</h3></td>
+                </tr>
+
+            </table>
+        </div><!--end of a la carte-->
+        <button class="collapsible">Roll + Hand Roll</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>California Roll</h3><p>Crab stick, cucumber, and avocado</p></td>
+                    <td><h3>$5.50</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Philadelphia Roll</h3><p>Smoked Salmon, scallion, avocado, and cream cheese</p></td>
+                    <td><h3>$5.50</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Rainbow Roll</h3><p>Crab stick, cucumber, and avocado inside; topped with tuna, salmon, white fish, avocado, and masago</p></td>
+                    <td><h3>$10.50</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Boston Roll</h3><p>Shrimp, cucumber, lettuce, and mayo</p></td>
+                    <td><h3>$5.50</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>A.A.C. Roll</h3><p>Avocado, asparagus, and cucumber</p></td>
+                    <td><h3>$5.50</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Dragon Roll</h3><p>Eel and cucumber inside; topped with sliced avocado and eel sauce masago</p></td>
+                    <td><h3>$10.50</h3></td>
+                </tr>
+            </table>
+        </div><!--end of rolls-->
+        <button class="collapsible">Chef's Special Roll</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Crazy Spider Roll</h3>
+                    <p>Tempura spider and cucumber; topped with tuna, white tuna, avocado; served with miso sauce, eel sauce, and tobiko</p></td>
+                    <td><h3>$13.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Haiku Roll</h3>
+                    <p>Shrimp tempura, crawfish, crabmeat, mango, avocado, and masago wrapped in soybean paper</p></td>
+                    <td><h3>$14.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>American Dream Roll</h3>
+                    <p>Spicy crab inside; topped with yellowtail, avocado, spicy mayo, tobiko, and cilantro</p></td>
+                    <td><h3>$12.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Angel Roll</h3>
+                        <p>King crab, mango, crawfish, avocado, crunchy, soybean paper, mango, and onion sauce</p></td>
+                    <td><h3>$15.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Crazy Tuna Roll</h3>
+                        <p>Spicy tuna and cucumber inside; topped with pepper tuna, avocado, and spicy mayo</p></td>
+                    <td><h3>$12.00</h3></td>
+                </tr>
+            </table>
+        </div><!--end of chef's special-->
+        <button class="collapsible">Sushi Bar Entree</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Sushi Entree</h3>
+                    <p>10 pieces of assorted fish (on sushi rice) with a Califonia roll</p></td>
+                    <td><h3>$20.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Sashimi Entree</h3>
+                    <p>15 pieces of assorted fish with white rice</p></td>
+                    <td><h3>$22.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Sushi & Sashimi Combo</h3>
+                    <p>5 pieces of suchi, 9 pieces of sashimi, and a California roll</p></td>
+                    <td><h3>$25.00</h3></td>
+                </tr>
+            </table>
+        </div><!--end of sushi entrees-->
+        <button class="collapsible">Katsu Kitchen Entrees</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Chicken Teriyaki</h3></td>
+                    <td><h3>$14.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Vegetable Tempura</h3></td>
+                    <td><h3>$10.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Yaki Udon</h3>
+                    <p>Stir fried "rounded" wheat noodle with choice of chicken, beef, or shrimp</p></td>
+                    <td><h3>$12.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Chicken Katsu</h3>
+                        <p>Deep fried breaded with sweet and sour sauce</p></td>
+                    <td><h3>$14.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Beef Teriyaki</h3></td>
+                    <td><h3>$17.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Shrimp & Vegetable Tempura</h3></td>
+                    <td><h3>$15.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Yaki Soba</h3>
+                        <p>Stir fried wheat noodle with choice of chicken, beef, or shrimp</p></td>
+                    <td><h3>$12.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Pork Katsu</h3>
+                        <p>Deep fried breaded with sweet and sour sauce</p></td>
+                    <td><h3>$14.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Salmon Teriyaki</h3></td>
+                    <td><h3>$15.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Nabe Yaki Udon</h3>
+                        <p>Noodle soup with chicken, vegetables, egg, and shrimp tempura</p></td>
+                    <td><h3>$14.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Shrimp Teriyaki</h3></td>
+                    <td><h3>$16.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Beef Udon</h3>
+                        <p>Noodle Soup with beef and vegetables</p></td>
+                    <td><h3>$14.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Seafood Udon</h3>
+                        <p>Noodle Soup with scallop, shrimp, white fish, fish cake, kani, and vegetables</p></td>
+                    <td><h3>$15.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Vegetable Ramen (No Egg)</h3></td>
+                    <td><h3>$10.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Chicken Ramen</h3></td>
+                    <td><h3>$11.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Pork Ramen</h3></td>
+                    <td><h3>$11.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Beef Ramen</h3></td>
+                    <td><h3>$12.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Shrimp Ramen</h3></td>
+                    <td><h3>$13.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Seafood Ramen</h3></td>
+                    <td><h3>$13.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>House Special Ramen</h3>
+                    <p>Chicken, beef, and shrimp</p></td>
+                    <td><h3>$13.00</h3></td>
+                </tr>
+            </table>
+        </div><!--end of kitchen entrees-->
+        <button class="collapsible">Hibachi Dinner</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Hibachi Vegetable</h3></td>
+                    <td><h3>$10.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Chicken</h3></td>
+                    <td><h3>$15.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Salmon</h3></td>
+                    <td><h3>$17.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Steak</h3></td>
+                    <td><h3>$18.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Shrimp</h3></td>
+                    <td><h3>$17.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Scallop</h3></td>
+                    <td><h3>$19.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Filet Mignon</h3></td>
+                    <td><h3>$22.95</h3></td>
+                </tr>
+            </table>
+        </div><!--end of hibachi-->
+        <button class="collapsible">Hibachi Dinner Combo</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Hibachi Chicken & Steak</h3></td>
+                    <td><h3>$19.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Chicken & Shrimp</h3></td>
+                    <td><h3>$18.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Steak & Shrimp</h3></td>
+                    <td><h3>$20.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Shrimp & Scallop</h3></td>
+                    <td><h3>$21.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Steak & Scallop</h3></td>
+                    <td><h3>$21.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Filet Mignon & Scallop</h3></td>
+                    <td><h3>$23.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Filet Mignon & Lobsterp</h3></td>
+                    <td><h3>$29.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Filet Mignon & Shrimp</h3></td>
+                    <td><h3>$23.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Love Dinner for 2</h3><p>Feeds 2; Filet mignon, scallop, and lobster</p></td>
+                    <td><h3>$50.95</h3></td>
+                </tr>
+            </table>
+        </div><!--end of hibachi combo-->
+        <button class="collapsible">Kid's Menu</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Hibachi Chicken Junior</h3></td>
+                    <td><h3>$9.50</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Steak Junior</h3></td>
+                    <td><h3>$11.50</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Shrimp Junior</h3></td>
+                    <td><h3>$11.50</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Scallop Junior</h3></td>
+                    <td><h3>$11.50</h3></td>
+                </tr>
+            </table>
+        </div><!--end of kids menu-->
+        <button class="collapsible">Side Order</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Hibachi Fried Rice</h3></td>
+                    <td><h3>$3.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Fried Steak</h3></td>
+                    <td><h3>$8.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Scallop</h3></td>
+                    <td><h3>$7.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Salmon</h3></td>
+                    <td><h3>$7.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Chicken</h3></td>
+                    <td><h3>$5.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Filet Mignon</h3></td>
+                    <td><h3>$10.00</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Hibachi Shrimp</h3></td>
+                    <td><h3>$7.00</h3></td>
+                </tr>
+            </table>
+        </div><!--end of sides-->
+        <button class="collapsible">Dessert</button>
+        <div class="content">
+            <table class="menu">
+                <tr>
+                    <td><h3>Fried Banana</h3></td>
+                    <td><h3>$3.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Fried Cheesecake</h3></td>
+                    <td><h3>$6.95</h3></td>
+                </tr>
+                <tr>
+                    <td><h3>Key Lime Pie</h3></td>
+                    <td><h3>$6.95</h3></td>
+                </tr>
+            </table>
+        </div><!--end of dessert-->
+
+
+        <!--java info for menu-->
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        </script>
+
+
+    </div> <!-- end of menu-->
+    <div id="order_online">
+        <a href="https://www.bitesquad.com/food/haiku-japanese-bistro/260" target="_blank"><img class="order"
+                                                                                                src="bitesquad.jpg"></a>
+        <a href="https://www.doordash.com/store/haiku-japanese-minneapolis-23399/" target="_blank"><img class="order"
+                                                                                                        src="doordash.jpg"></a>
+        <a href="https://www.beyondmenu.com/33965/minneapolis/haiku-japanese-bistro-minneapolis-55414.aspx"
+           target="_blank"><img class="order" src="beyond-menu.gif"></a>
+
+    </div> <!--end of order online-->
+    <div id="about">
+        <div class="review">
+            <span class="yelp-review" data-review-id="Fnoas9rK52sy6aSgJ7rVVg" data-hostname="www.yelp.com">Read <a
+                    href="https://www.yelp.com/user_details?userid=cuqcmk82I12VzRF_iB19fA" rel="nofollow noopener">Monica K.</a>'s <a
+                    href="https://www.yelp.com/biz/haiku-japanese-bistro-minneapolis-2?hrid=Fnoas9rK52sy6aSgJ7rVVg"
+                    rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/bvs9_sJvp2eZyPkPL4Xt5w"
+                                                             rel="nofollow noopener">Haiku Japanese Bistro</a> on <a
+                    href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async"
+                                                                                        src="https://www.yelp.com/embed/widgets.js"
+                                                                                        type="text/javascript"></script></span>
+            <span class="yelp-review" data-review-id="UkmakNfD-qFV-iT6oFTOaA" data-hostname="www.yelp.com">Read <a
+                    href="https://www.yelp.com/user_details?userid=WYL7Be5r1sS0vrtsZtVXfQ" rel="nofollow noopener">Coleton D.</a>'s <a
+                    href="https://www.yelp.com/biz/haiku-japanese-bistro-minneapolis-2?hrid=UkmakNfD-qFV-iT6oFTOaA"
+                    rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/bvs9_sJvp2eZyPkPL4Xt5w"
+                                                             rel="nofollow noopener">Haiku Japanese Bistro</a> on <a
+                    href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async"
+                                                                                        src="https://www.yelp.com/embed/widgets.js"
+                                                                                        type="text/javascript"></script></span>
+
+        </div><!-- end of reviews-->
+        <div class="bio">
+            <h3 class="bio_head">Haiku Japanese Bistro offers delicious dining to the Twin Cities.</h3>
+            <br>
+
+            <p>A cornerstone in the Minneapolis community, we have been recognized for our outstanding Sushi cuisine,
+                excellent service and friendly staff.</p> <br>
+            <p>Come try our modern interpretations of classic dishes made with
+                high quality, always fresh ingredients.</p>
+
+        </div> <!-- end of bio-->
+        <div class="mpls_hours">
+            <table>
+                <tr>
+                    <td rowspan="3" class="location"><h2>MINNEAPOLIS</h2>
+                        <p>620 Washington Ave SE</p>
+                        <p>Minneapolis, MN 55414</p>
+                        <p>(612) 331-8888</p></td>
+                    <td class="dates"><h5>Mon-Thurs:</h5></td>
+                    <td class="hours"><h5>10:30 AM - 11:00 PM</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dates"><h5>Fri & Sat:</h5></td>
+                    <td class="hours"><h5>10:30 AM - 11:30 PM</h5></td>
+                </tr>
+                <tr>
+                    <td class="dates">
+                        <h5>Sunday:</h5></td>
+                    <td class="hours"><h5>12:00 PM - 10:00 PM</h5></td>
+                </tr>
+            </table>
+
+        </div><!-- end of mlps hours-->
+        <div class="mendota_hours">
+            <table>
+                <tr>
+                    <td rowspan="6" class="location"><h2>MENDOTA HEIGHTS</h2>
+                        <p>620 Washington Ave SE</p>
+                        <p>Minneapolis, MN 55414</p>
+                        <p>(612) 331-8888</p></td>
+                    <td class=dates>
+                        <h5>Mon-Thurs:</h5>
+                    </td>
+                    <td class="hours"><h5>11:00 AM - 2:30 PM</h5></td>
+                </tr>
+                <tr>
+                    <td class="dates"></td>
+                    <td class="hours"><h5>4:30 PM - 10:00 PM</h5></td>
+                </tr>
+                <tr>
+                    <td class=dates>
+                        <h5>Friday:</h5>
+                    </td>
+                    <td class="hours">
+                        <h5>11:00 AM - 2:30 PM</h5></td>
+                <tr>
+                    <td class="dates"></td>
+                    <td class="hours"><h5>4:30 PM - 11:00 PM</h5></td>
+                </tr>
+
+                <tr>
+                    <td class=dates>
+                        <h5>Saturday:</h5>
+                    </td>
+                    <td class="hours">
+                        <h5>12:00 PM - 11:00 PM</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td class=dates>
+                        <h5>Sunday:</h5>
+                    </td>
+                    <td class="hours">
+                        <h5>12:00 PM - 10:00 PM</h5></td>
+                </tr>
+            </table>
+        </div><!--end of mendota hours-->
+
+
+    </div><!-- end of about-->
+
+
+</div><!-- end of wrapper-->
+
+<!--java stuff-->
+<script>
+    $(document).ready(function () {
+// Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+
+// Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+// Prevent default anchor click behavior
+                event.preventDefault();
+
+// Store hash
+                var hash = this.hash;
+
+// Using jQuery's animate() method to add smooth page scroll
+// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 400, function () {
+
+// Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
+</body>
+</html>
